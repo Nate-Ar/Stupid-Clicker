@@ -1,6 +1,3 @@
-<!--Creator: Nathan A-->
-<!--Date: 7/7/20-->
-<!--Description: Clicker Game-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,22 +7,48 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <center>
-        <h1>Stupid Clicker</h1>
-
-        <aside>
-
-            <div id="number">0</div>
-
-            <div id="buttons">
-                <button onclick="add()" id="click"> Click </button><br>
-                <h2>Cost: <div id="buycost">50</div> Clicks</h2>
-                <button onclick="puchuse()" id="buy"> Buy Auto Clicker</button><br>
-                <h2>Cost: <div id="buycost1">50</div> Clicks</h2>
-                <button onclick="upgradeclick()" id="upgrade"> Upgrade Click</button>
-            </div>
-        </aside>
-    </center>
+<center>
+    <h1>Stupid Clicker</h1>
+    <div id="counters">
+        <div id="all">
+            You Have <a id="counter6">0</a> Click Upgrades
+        </div>
+        <div id="all">
+            You Have <a id="counter1">0</a> First-Class Auto Clicker
+        </div>
+        <div id="all">
+            You Have <a id="counter2">0</a> Great Auto Clicker
+        </div>
+        <div id="all">
+            You Have <a id="counter3">0</a> Remarkable Auto Clicker
+        </div>
+        <div id="all">
+            You Have <a id="counter4">0</a> Exceptional Auto Clicker
+        </div>
+        <div id="all">
+            You Have <a id="counter5">0</a> Perfected Auto Clicker
+        </div>
+    </div>
+    <aside>
+        <div id="number">0</div>
+        <div id="buttons">
+            <button onclick="add()" id="click"> Click </button><br><hr>
+            <h2>Cost: <div id="buycost1">50</div> Clicks</h2>
+            <button onclick="upgradeclick()" id="upgrade"> Upgrade Click</button><hr>
+            <h2>Cost: <div id="buycost2">50</div> Clicks</h2>
+            <button onclick="firstclass()" id="buy"> First-Class Auto Clicker</button><br>
+            <h2>Cost: <div id="buycost3">500</div> Clicks</h2>
+            <button onclick="great()" id="buy"> Great Auto Clicker</button><br>
+            <h2>Cost: <div id="buycost4">5000</div> Clicks</h2>
+            <button onclick="remark()" id="buy"> Remarkable Auto Clicker</button><br>
+            <h2>Cost: <div id="buycost5">50000</div> Clicks</h2>
+            <button onclick="expo()" id="buy"> Exceptional Auto Clicker</button><br>
+            <h2>Cost: <div id="buycost6">500000</div> Clicks</h2>
+            <button onclick="perfect()" id="buy"> Perfected Auto Clicker</button><br><hr>
+        </div>
+    </aside>
+    <div class="credit">Created by Orange Peel Development</div>
+</center>
 </body>
 
 </html>

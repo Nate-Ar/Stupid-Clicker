@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    touch-action: manipulation;
 }
 h1{ margin-top: 2%;
     background-color: black;
@@ -15,11 +16,13 @@ button{
     color: black;
     border: none;
     width: 8%;
-    height: 38px;
+    padding: .3%;
     font-size: 160%;
     margin-bottom: .5%;
 }
 #number{
+    position: relative;
+    /*left: -8.5%;*/
     color: white;
     font-size: 500%;
 }
@@ -28,7 +31,7 @@ button{
 
 }
 #buy{
- font-size: 110%;
+    font-size: 110%;
 }
 #upgrade{
     font-size: 110%;
@@ -41,13 +44,79 @@ h2{
     font-size: 100%;
     margin-left: -1.8%;
 }
-#buycost{
+#buycost,#buycost1,#buycost2,#buycost3,#buycost4,#buycost5,#buycost5,#buycost6{
     display: inline;
 }
-#buycost1{
-    display: inline;
+#counter1,#counter2,#counter3,#counter4,#counter5{
+
 }
 .credit{
-    margin-top: 10%;
+    margin-top: 2%;
     color: darkorange;
+}
+hr{
+    border-radius: 90%;
+    width: 20%;
+    height: 2px;
+    background-color: darkorange;
+    border: none;
+    margin-bottom: .5%
+}
+#all{
+    color: white;
+}
+#counters{
+    display: in;
+    font-size: 116%;
+    /*border-radius: 9px;*/
+    /*background-color: darkorange;*/
+    padding: 1%;
+    text-align: left;
+    position: relative;
+    float: left;
+    margin-right: -50%;
+    /*margin-left: 10%;*/
+    left: 5%;
+}
+@media only screen and (max-width: 375px) {
+
+    #counters{
+        font-size: xx-small;
+    }
+    hr{
+        width: 70%;
+    }
+    button{
+        width: 30%;
+    }
+    h1{
+        font-size: 70px;
+    }
+}
+@media only screen and (max-width: 995px) {
+
+    #counters{
+        font-size: larger;
+    }
+    hr{
+        width: 70%;
+    }
+    button{
+        padding: 2%;
+        width: 40%;
+        margin-bottom: 5%;
+    }
+    h1{
+        font-size: 100px;
+    }
+    #number{
+        font-size: 800%;
+    }
+    #buy,#upgrade{
+        font-size: 30px;
+    }
+    #click{
+        font-size: 60px;
+        padding: 1%;
+    }
 }
