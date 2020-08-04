@@ -1,8 +1,8 @@
 # Stupid Clicker
-Stupid Clicker is a fun game where you click a button so you can get upgrades. And why would you want to get upgrades you may ask. Well so you can get more clicks so you can get even more upgrades.If you have 10 upgrades you clicks are timsed by 10 every time you click alog with how ever many clicks you click is worth.If you have 15 pgrades you clicks are timsed by 2 every time you click alog with how ever many clicks you click is worth
+Stupid Clicker is a fun game where you click a button so you can get upgrades. And why would you want to get upgrades you may ask. Well so you can get more clicks so you can get even more upgrades.
 <br>
 ### Upgrade Click
-Upgrade Click, makes every click 2 times as much and the cost gose up by the price times the amount of times you have bought it
+Upgrade Click, makes every click 2 times as much and the cost gose up by the price times the amount of times you have bought it. If you have 10 upgrades you clicks are timsed by 10 every time you click alog with how ever many clicks you click is worth.If you have 15 pgrades you clicks are timsed by 2 every time you click alog with how ever many clicks you click is worth
 <br>
 ### First Class Auto Clicker
 First Class Auto Clicker, it auto clicks every 5sec and the cost is how ever many you have times 2
