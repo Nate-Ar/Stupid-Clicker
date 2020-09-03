@@ -1,3 +1,7 @@
+# Creator: Nathan A
+# Description: Does your vocab for you
+# Creation Date: 7/7/2019
+# Update Date: 8/3/2020
 var clicks = 0;
 var firstclasscost = 50;
 var greatcost = 500;
